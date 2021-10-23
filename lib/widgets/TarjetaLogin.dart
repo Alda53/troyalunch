@@ -64,7 +64,7 @@ class TarjetaLogin extends StatelessWidget {
             ),
           ),
         ),
-        Positioned(
+        /*Positioned(
           top: 30,
           left: 150,
           child: Container(
@@ -73,7 +73,7 @@ class TarjetaLogin extends StatelessWidget {
             color: Colors.green,
             //PONER AQUÍ EL LOGO EN CASO DE TENERLO
           ),
-        ),
+        ),*/
       ],
     );
   }

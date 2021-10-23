@@ -8,8 +8,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Widgets componentes basicos',
-      initialRoute: 'primera_page',
+      //title: 'Widgets componentes basicos',
+      initialRoute: 'cover_page',
       routes: getRoutes(),
       /*onGenerateRoute: (settings){
         return MaterialPageRoute(
