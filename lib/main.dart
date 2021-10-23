@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Widgets componentes basicos',
-      initialRoute: 'pantalla_inicial',
+      initialRoute: 'primera_page',
       routes: getRoutes(),
       /*onGenerateRoute: (settings){
         return MaterialPageRoute(
