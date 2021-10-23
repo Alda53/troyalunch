@@ -53,11 +53,12 @@ class TarjetaLogin extends StatelessWidget {
                   },
                   child: Text(
                     //Botón que nos manda al signin 
-                    "Crear cuenta",
-                    style: TextStyle(color: Colors.white, fontSize: 20),
+                    "No tengo cuenta",
+                    style: TextStyle(color: Colors.green, fontSize: 20),
                   ),
                   style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(Colors.green)),
+                      backgroundColor: MaterialStateProperty.all(Colors.white),
+                    ),
                 ),
               ],
             ),

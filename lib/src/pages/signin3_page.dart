@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:troyalunch/src/pages/inicio_page.dart';
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({Key? key}) : super(key: key);
+class LastSignin extends StatelessWidget {
+  const LastSignin({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Inicia sesión'),
+          title: const Text('Últimos pasos...'),
           backgroundColor: Colors.green,
         ),
         floatingActionButton: TextButton.icon(
@@ -37,17 +37,16 @@ class LoginPage extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(20.0),
               child: Text(
-                "Ingresa tu número celular",
+                "Ingresa un nombre de usuario",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
               padding: const EdgeInsets.all(20.0),
               child: TextField(
-                keyboardType: TextInputType.number,
                 decoration: new InputDecoration(
                   icon: new Icon(
-                    Icons.local_phone,
+                    Icons.account_circle,
                     color: Colors.green,
                   ),
                   enabledBorder: const OutlineInputBorder(
@@ -66,7 +65,7 @@ class LoginPage extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(30.0),
               child: Text(
-                "Ingresa tu contraseña",
+                "Ingresa una contraseña",
                 style: TextStyle(fontSize: 20),
               ),
             ),
@@ -88,6 +87,29 @@ class LoginPage extends StatelessWidget {
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(20.0)),
+                    borderSide: BorderSide(color: Colors.green),
+                  ),
+                ),
+              ),
+            ),
+            Container(
+              padding: const EdgeInsets.all(20.0),
+              child: TextField(
+                obscureText: true,
+                decoration: new InputDecoration(
+                  labelText: "Confirma tu contraseña",
+                  icon: new Icon(
+                    Icons.lock,
+                    color: Colors.green,
+                  ),
+                  enabledBorder: const OutlineInputBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(20.0)),
+                    borderSide: const BorderSide(
+                      color: Colors.grey,
+                    ),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(10.0)),
                     borderSide: BorderSide(color: Colors.green),
                   ),
                 ),

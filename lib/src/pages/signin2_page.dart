@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:troyalunch/src/pages/signin2_page.dart';
+import 'package:troyalunch/src/pages/signin3_page.dart';
 
-class SigninPage extends StatelessWidget {
-  const SigninPage({Key? key}) : super(key: key);
+class SigSignin extends StatelessWidget {
+  const SigSignin({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Crea una cuenta'),
+          title: const Text('Confirma tu cuenta'),
           backgroundColor: Colors.green,
         ),
         floatingActionButton: TextButton.icon(
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const SigSignin()),
+              MaterialPageRoute(builder: (context) => const LastSignin()),
             );
           },
           label: Icon(
@@ -37,7 +37,7 @@ class SigninPage extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(20.0),
               child: Text(
-                "Ingresa tu número celular",
+                "Ingresa los 4 dígitos que te hemos enviado",
                 style: TextStyle(fontSize: 20),
               ),
             ),
@@ -46,10 +46,6 @@ class SigninPage extends StatelessWidget {
               child: TextField(
                 keyboardType: TextInputType.number,
                 decoration: new InputDecoration(
-                  icon: new Icon(
-                    Icons.add_ic_call,
-                    color: Colors.green,
-                  ),
                   enabledBorder: const OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(20.0)),
                     borderSide: const BorderSide(
@@ -61,13 +57,6 @@ class SigninPage extends StatelessWidget {
                     borderSide: BorderSide(color: Colors.green),
                   ),
                 ),
-              ),
-            ),
-            Container(
-              padding: const EdgeInsets.all(20.0),
-              child: Text(
-                "Si continúas, recibirás un SMS para confirmar tu número celular.",
-                style: TextStyle(fontSize: 15, color: Colors.black45),
               ),
             ),
           ],
