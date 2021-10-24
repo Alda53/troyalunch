@@ -1,27 +1,28 @@
 import 'package:flutter/material.dart';
 
-class Platillos extends StatelessWidget {
-  const Platillos({Key? key}) : super(key: key);
+class Bebidas extends StatelessWidget {
+  const Bebidas({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       /*appBar: AppBar(
-        title: Text('Platillos'),
+        title: Text('Bebidas'),
       ),*/
       body: ListView(
         padding: EdgeInsets.all(20),
         children:<Widget> [
-          //platillo1(),
+          //bebida1(),
           SizedBox(height: 30.0,),
-          platillo2(),
+          bebida2(),
           SizedBox(height: 30.0,),
         ],
       ),
     );
   }
 
-  Widget platillo2(){
+
+  Widget bebida2(){
     final card = Container(
       child: Column(
         children:<Widget>[

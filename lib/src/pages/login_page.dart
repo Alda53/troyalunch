@@ -15,7 +15,7 @@ class LoginPage extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const Inicio()),
+              MaterialPageRoute(builder: (context) => const InicioPage()),
             );
           },
           label: Icon(
@@ -76,6 +76,7 @@ class LoginPage extends StatelessWidget {
                 obscureText: true,
                 decoration: new InputDecoration(
                   labelText: "Escribe tu contraseña",
+                  labelStyle: TextStyle(color: Colors.green),
                   icon: new Icon(
                     Icons.lock,
                     color: Colors.green,

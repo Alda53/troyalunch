@@ -15,7 +15,7 @@ class LastSignin extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const Inicio()),
+              MaterialPageRoute(builder: (context) => const InicioPage()),
             );
           },
           label: Icon(

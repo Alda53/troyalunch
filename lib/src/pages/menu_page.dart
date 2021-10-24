@@ -3,7 +3,7 @@ import 'package:troyalunch/src/providers/menu_provider.dart';
 import 'package:troyalunch/src/utils/icono_utils.dart';
 
 
-class HomePage extends StatelessWidget {
+class MenuPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
