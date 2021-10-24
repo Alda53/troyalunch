@@ -4,6 +4,9 @@ import 'package:troyalunch/src/pages/inicio_page.dart';
 import 'package:troyalunch/src/pages/menu_page.dart';
 import 'package:troyalunch/src/pages/primera_page.dart';
 import 'package:troyalunch/widgets/bebidas.dart';
+import 'package:troyalunch/widgets/paquetes.dart';
+import 'package:troyalunch/widgets/platillos_page.dart';
+import 'package:troyalunch/widgets/snacks.dart';
 
 //Título que apunta a las funciones de cada archivo
 
@@ -14,6 +17,9 @@ Map<String, WidgetBuilder>getRoutes(){
     'cover_page': (BuildContext context) => CoverPage(),
     'menu_page': (BuildContext context) => MenuPage(),
     'bebidas_page': (BuildContext context) => Bebidas(),
+    'platillos_page': (BuildContext context) => Platillos(),
+    'snacks_page': (BuildContext context) => Snacks(),
+    'paquetes_page': (BuildContext context) => Paquetes(),
   };
 
 }

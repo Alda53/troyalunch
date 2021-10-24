@@ -12,7 +12,7 @@ class InicioPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('TroyaLUNCH'),
+        title: Text('Inicio'),
         backgroundColor: Colors.green,
       ),
       body: Column(
@@ -31,7 +31,6 @@ class InicioPage extends StatelessWidget {
           ),
         ]
       ),
-      bottomNavigationBar: MenuAbajo(),
     );
   }
 }

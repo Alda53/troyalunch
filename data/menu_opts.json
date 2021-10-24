@@ -2,7 +2,22 @@
     "nombreApp" : "Componentes",
     "rutas" : [
         {
-            "ruta" : "alert",
+            "ruta" : "platillos_page",
+            "icon" : "add_alert",
+            "texto": "Alertas"
+        },
+        {
+            "ruta" : "snacks_page",
+            "icon" : "add_alert",
+            "texto": "Alertas"
+        },
+        {
+            "ruta" : "bebidas_page",
+            "icon" : "add_alert",
+            "texto": "Alertas"
+        },
+        {
+            "ruta" : "paquetes_page",
             "icon" : "add_alert",
             "texto": "Alertas"
         }

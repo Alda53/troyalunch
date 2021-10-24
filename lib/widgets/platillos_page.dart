@@ -12,65 +12,52 @@ class Platillos extends StatelessWidget {
       body: ListView(
         padding: EdgeInsets.all(20),
         children:<Widget> [
-          //platillo1(),
+          bebida1(),
           SizedBox(height: 30.0,),
-          platillo2(),
+          //bebida2(),
           SizedBox(height: 30.0,),
         ],
       ),
     );
   }
 
-  Widget platillo2(){
-    final card = Container(
+
+  Widget bebida1(){
+    return Card(
       child: Column(
         children:<Widget>[
-          FadeInImage(
-            placeholder: AssetImage('assets/loading.gif'), //leer algo que esta en la app 
-            image: NetworkImage('https://profucom.com.mx/wp-content/uploads/2019/04/travel-landscape-01.jpg'),
+          ListTile(
+            title: Text('Coca cola', style: TextStyle(
+              color: Colors.white, 
+              fontWeight: FontWeight.bold, 
+              fontSize: 18),),
+            tileColor: Colors.green,
           ),
+          SizedBox(height:10.0),
           Container(
             padding: EdgeInsets.all(10.0),
-            child: Text('Hola mundo'),
+            height: 140.0,
+            width: 170.0,
+            decoration: new BoxDecoration(
+              image: DecorationImage(
+                image: new AssetImage('assets/bebida1.jpg'),
+                fit: BoxFit.fill,
+              ),
+            ),
           ),
-          ListTile(
-            leading: Icon(Icons.photo_album, color: Colors.red),
-            title: Text('Tirulo de la tarjeta'),
-            subtitle: Text('Subtitulo'),
-          ),
+          SizedBox(height:10.0),
           Row(
-            mainAxisAlignment: MainAxisAlignment.end,
-            children:<Widget>[
-              TextButton(
-                onPressed: (){}, 
-                child: Text('OK'),
-              ),
-              TextButton(
-                onPressed: (){}, 
-                child: Text('Cancelar'),
-              ),
+            children: [
+              Text('\$20.00', textAlign: TextAlign.right, style: TextStyle(fontSize: 16)),
+              Text('  Calificacion: ', style: TextStyle(fontSize: 16),),
+              Icon(Icons.star, size: 22, color:Colors.green),
+              Icon(Icons.star, size: 22, color:Colors.green),
+              Icon(Icons.star, size: 22, color:Colors.green),
+              Icon(Icons.star, size: 22, color:Colors.green),
             ],
           ),
+          SizedBox(height:10.0),
         ],
-      ),
-    );
-
-    return Container(
-      child: ClipRRect(
-        child: card,
-        borderRadius: BorderRadius.circular(30.0)
-      ),
-      decoration: BoxDecoration(
-        //color: Colors.red,
-        borderRadius: BorderRadius.circular(30.0),
-        boxShadow: <BoxShadow>[
-          BoxShadow(
-            color: Colors.black26,
-            blurRadius: 10.0,
-            spreadRadius: 2.0,
-            offset: Offset(2.0, 10.0),
-          ),
-        ]
       ),
     );
   }

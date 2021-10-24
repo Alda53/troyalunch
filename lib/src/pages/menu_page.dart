@@ -9,7 +9,8 @@ class MenuPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home Page')
+        title: Text('Categorias'),
+        backgroundColor: Colors.green,
       ),
       body: _lista(),
     );
@@ -47,4 +48,5 @@ class MenuPage extends StatelessWidget {
 
     return opciones;
   }
+
 }
