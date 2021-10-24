@@ -22,7 +22,7 @@ class MenuAbajo extends StatelessWidget {
           label: 'Explorar'
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.shopping_bag_outlined),
+          icon: Icon(Icons.add_shopping_cart),
           label: 'Pedidos'
         ),
         BottomNavigationBarItem(

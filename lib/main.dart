@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       //title: 'Widgets componentes basicos',
       //initialRoute: 'cover_page',
-      initialRoute: 'inicio_page',
+      initialRoute: 'bebidas_page',
       routes: getRoutes(),
       /*onGenerateRoute: (settings){
         return MaterialPageRoute(

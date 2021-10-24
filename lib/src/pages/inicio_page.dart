@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:troyalunch/src/pages/bebidas.dart';
-import 'package:troyalunch/src/pages/platillos_page.dart';
+import 'package:troyalunch/widgets/bebidas.dart';
+import 'package:troyalunch/widgets/paquetes.dart';
+import 'package:troyalunch/widgets/platillos_page.dart';
 import 'package:troyalunch/widgets/menu_abajo.dart';
+import 'package:troyalunch/widgets/snacks.dart';
 
 class InicioPage extends StatelessWidget {
   const InicioPage({Key? key}) : super(key: key);
@@ -18,9 +20,14 @@ class InicioPage extends StatelessWidget {
           Expanded(
             child: Platillos(),
           ),
-          SizedBox(height: 30.0,),
           Expanded(
             child: Bebidas(),
+          ),
+          Expanded(
+            child: Snacks(),
+          ),
+          Expanded(
+            child: Paquetes(),
           ),
         ]
       ),
