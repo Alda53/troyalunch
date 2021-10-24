@@ -25,6 +25,7 @@ class _MenuAbajoState extends State<MenuAbajo> {
         type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.green,
         unselectedItemColor: Colors.white,
+        selectedItemColor: Colors.black,
         //currentIndex: 4,
         items: [
           BottomNavigationBarItem(

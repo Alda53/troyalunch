@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:troyalunch/src/pages/inicio_page.dart';
+import 'package:troyalunch/widgets/menu_abajo.dart';
 
 class LastSignin extends StatelessWidget {
   const LastSignin({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class LastSignin extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const InicioPage()),
+              MaterialPageRoute(builder: (context) => MenuAbajo()),
             );
           },
           label: Icon(

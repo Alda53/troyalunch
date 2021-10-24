@@ -3,23 +3,23 @@
     "rutas" : [
         {
             "ruta" : "platillos_page",
-            "icon" : "add_alert",
-            "texto": "Alertas"
+            "icon" : "food",
+            "texto": "Platillos"
         },
         {
             "ruta" : "snacks_page",
-            "icon" : "add_alert",
-            "texto": "Alertas"
+            "icon" : "snack",
+            "texto": "Snacks"
         },
         {
             "ruta" : "bebidas_page",
-            "icon" : "add_alert",
-            "texto": "Alertas"
+            "icon" : "drink",
+            "texto": "Bebidas"
         },
         {
             "ruta" : "paquetes_page",
-            "icon" : "add_alert",
-            "texto": "Alertas"
+            "icon" : "combo",
+            "texto": "Paquetes"
         }
     ]
 }

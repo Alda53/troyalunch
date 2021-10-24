@@ -37,7 +37,7 @@ class MenuPage extends StatelessWidget {
       final widgetTemporal = ListTile(
         title: Text(op['texto']),
         leading: getIcon(op['icon']),
-        trailing: Icon(Icons.add_business_outlined, color: Colors.black,),
+        trailing: Icon(Icons.arrow_forward_ios, color: Colors.black,),
         onTap: () {
           Navigator.pushNamed(context, op['ruta']);
         },
