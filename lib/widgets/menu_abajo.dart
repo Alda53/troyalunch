@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:troyalunch/src/pages/carrito_page.dart';
+import 'package:troyalunch/src/pages/cuenta_page.dart';
 import 'package:troyalunch/src/pages/inicio_page.dart';
 import 'package:troyalunch/src/pages/menu_page.dart';
 
@@ -15,6 +17,8 @@ class _MenuAbajoState extends State<MenuAbajo> {
   final _pageOptions = [
     InicioPage(),
     MenuPage(),
+    CarritoPage(),
+    CuentaPage(),
   ];
 
   @override
