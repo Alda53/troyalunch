@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:troyalunch/src/pages/bebidas_page.dart';
 import 'package:troyalunch/src/pages/cover_page.dart';
 import 'package:troyalunch/src/pages/inicio_page.dart';
 import 'package:troyalunch/src/pages/menu_page.dart';
@@ -16,7 +17,8 @@ Map<String, WidgetBuilder>getRoutes(){
     'inicio_page': (BuildContext context) => InicioPage(),
     'cover_page': (BuildContext context) => CoverPage(),
     'menu_page': (BuildContext context) => MenuPage(),
-    'bebidas_page': (BuildContext context) => Bebidas(),
+    'bebidas_page': (BuildContext context) => BebidasPage(),
+    'bebidas': (BuildContext context) => Bebidas(),
     'platillos_page': (BuildContext context) => Platillos(),
     'snacks_page': (BuildContext context) => Snacks(),
     'paquetes_page': (BuildContext context) => Paquetes(),
