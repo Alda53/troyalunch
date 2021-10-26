@@ -9,7 +9,8 @@ Widget cardPaquete(BuildContext context, int index) {
           child: Container(
             width: double.infinity,
             height: 160,
-            child: Image(
+            child: FadeInImage(
+              placeholder: AssetImage('assets/loading.gif'),
               image: NetworkImage(paquete[index]['img']),
               fit: BoxFit.cover,
             ),

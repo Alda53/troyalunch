@@ -18,8 +18,8 @@ class Perfil extends StatelessWidget {
               }, 
               child: Icon(Icons.close, color: Colors.white,),
               style: ElevatedButton.styleFrom(
-                primary: Colors.grey[800], 
-                onPrimary: Colors.grey[800],
+                primary: Colors.green, 
+                onPrimary: Colors.red,
                 alignment: Alignment.bottomRight),
               ),
 

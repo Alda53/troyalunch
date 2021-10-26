@@ -36,7 +36,7 @@ class EditarCuenta extends StatelessWidget {
           ListTile(
             subtitle: Text('+52 442 000 0000', style: TextStyle(color: Colors.black, fontSize: 20)),
             title: Text('Número de teléfono', style: TextStyle(color: Colors.grey[600], fontSize: 16)),
-            leading: Icon(Icons.flag, color: Colors.red,),
+            leading: Icon(Icons.call, color: Colors.green,),
             onTap: (){},
           ),
           SizedBox(height: 15,),

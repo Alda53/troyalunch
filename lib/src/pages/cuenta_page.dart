@@ -9,7 +9,9 @@ class CuentaPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Cuenta'),
-        backgroundColor: Colors.green,        
+        centerTitle: true,
+        backgroundColor: Colors.green,
+        automaticallyImplyLeading: false,        
       ),
       body: Column(
         children: [
