@@ -5,6 +5,13 @@ class CarritoPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Tus pedidos'),
+        centerTitle: true,
+        backgroundColor: Colors.green,
+        automaticallyImplyLeading: false,
+      ),
+    );
   }
 }

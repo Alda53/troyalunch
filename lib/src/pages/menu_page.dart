@@ -9,8 +9,10 @@ class MenuPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Categorias'),
+        title: Text('Menú'),
+        centerTitle: true,
         backgroundColor: Colors.green,
+        automaticallyImplyLeading: false,
       ),
       body: _lista(),
     );
