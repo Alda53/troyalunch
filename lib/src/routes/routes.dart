@@ -17,6 +17,7 @@ Map<String, WidgetBuilder>getRoutes(){
     'inicio_page': (BuildContext context) => InicioPage(),
     'cover_page': (BuildContext context) => CoverPage(),
     'menu_page': (BuildContext context) => MenuPage(),
+    
     'bebidas_page': (BuildContext context) => BebidasPage(),
     'platillos_page': (BuildContext context) => PlatillosPage(),
     'snacks_page': (BuildContext context) => SnacksPage(),

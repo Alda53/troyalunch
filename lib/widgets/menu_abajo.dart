@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:troyalunch/src/pages/carrito_page.dart';
 import 'package:troyalunch/src/pages/cuenta_page.dart';
 import 'package:troyalunch/src/pages/inicio_page.dart';
 import 'package:troyalunch/src/pages/menu_page.dart';
@@ -17,8 +16,7 @@ class _MenuAbajoState extends State<MenuAbajo> {
   final _pageOptions = [
     InicioPage(),
     MenuPage(),
-    CarritoPage(),
-    CuentaPage(),
+    CuentaPage()
   ];
 
   @override
@@ -30,7 +28,6 @@ class _MenuAbajoState extends State<MenuAbajo> {
         backgroundColor: Colors.green,
         unselectedItemColor: Colors.white,
         selectedItemColor: Colors.black,
-        //currentIndex: 4,
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
@@ -43,10 +40,6 @@ class _MenuAbajoState extends State<MenuAbajo> {
           BottomNavigationBarItem(
             icon: Icon(Icons.add_shopping_cart),
             label: 'Pedidos'
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Cuenta'
           ),
         ],    
         currentIndex: selectedPage,
