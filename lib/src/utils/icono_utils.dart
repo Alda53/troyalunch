@@ -5,6 +5,12 @@ final _icons = <String, IconData>{
   'drink' : Icons.coffee,
   'snack' : Icons.icecream ,
   'combo' : Icons.fastfood,
+  'favorite' : Icons.favorite,
+  'gift' : Icons.card_giftcard,
+  'card' : Icons.credit_card,
+  'help' : Icons.help,
+  'settings' : Icons.settings
+
 
 };
 

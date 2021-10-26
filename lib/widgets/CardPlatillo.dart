@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:troyalunch/src/data/platillos_data.dart';
 
-Widget CardPlatillo(BuildContext context, int index) {
+Widget cardPlatillo(BuildContext context, int index) {
   return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
     Stack(
       children: [

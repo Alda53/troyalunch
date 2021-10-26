@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:troyalunch/src/data/snacks_data.dart';
 
-Widget CardSnack(BuildContext context, int index) {
+Widget cardSnack(BuildContext context, int index) {
   return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
     Stack(
       children: [

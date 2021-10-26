@@ -14,13 +14,13 @@ class PaquetesPage extends StatelessWidget {
       body: ListView(
         padding: EdgeInsets.all(20),
         children:<Widget> [
-          CardPaquete(context, 0),
+          cardPaquete(context, 0),
           SizedBox(height: 30.0,),
-          CardPaquete(context, 1),
+          cardPaquete(context, 1),
           SizedBox(height: 30.0,),
-          CardPaquete(context, 2),
+          cardPaquete(context, 2),
           SizedBox(height: 30.0,),
-          CardPaquete(context, 3),
+          cardPaquete(context, 3),
           SizedBox(height: 30.0,),
         ],
       ),

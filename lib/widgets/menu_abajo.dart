@@ -16,7 +16,7 @@ class _MenuAbajoState extends State<MenuAbajo> {
   final _pageOptions = [
     InicioPage(),
     MenuPage(),
-    CuentaPage()
+    CuentaPage(),
   ];
 
   @override
@@ -38,8 +38,8 @@ class _MenuAbajoState extends State<MenuAbajo> {
             label: 'Explorar'
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.add_shopping_cart),
-            label: 'Pedidos'
+            icon: Icon(Icons.person),
+            label: 'Cuenta'
           ),
         ],    
         currentIndex: selectedPage,

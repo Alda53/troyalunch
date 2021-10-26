@@ -16,15 +16,15 @@ class InicioPage extends StatelessWidget {
       body: ListView(
         padding: EdgeInsets.all(20),
         children: [
-          CardBebida(context, 3),
+          cardBebida(context, 3),
           SizedBox(height: 30.0,),
-          CardPlatillo(context, 0),
+          cardPlatillo(context, 0),
           SizedBox(height: 30.0,),
-          CardSnack(context, 2),
+          cardSnack(context, 2),
           SizedBox(height: 30.0,),
-          CardBebida(context, 0),
+          cardBebida(context, 0),
           SizedBox(height: 30.0,),
-          CardPlatillo(context, 1),
+          cardPlatillo(context, 1),
         ],
       ),
     );
